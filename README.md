@@ -24,11 +24,11 @@ process.finish
 # or
 
 process.call do
-	puts "Hello"
-	process.(:A)
-	puts "World"
-	process.(:B)
-	puts "It's me!"
+  puts "Hello"
+  process.(:A)
+  puts "World"
+  process.(:B)
+  puts "It's me!"
 end
 ```
 
